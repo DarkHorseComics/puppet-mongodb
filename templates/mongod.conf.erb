@@ -3,7 +3,7 @@
 
 dbpath=<%= scope.lookupvar('mongodb::dbdir') %>/mongod_<%= @mongod_instance %>
 
-pidfilepath=<%= scope.lookupvar('mongodb::pidfilepath') %>/mongod_<%= @mongod_instance %>/mongod.pid
+pidfilepath=<%= scope.lookupvar('mongodb::pidfilepath') %>/mongod_<%= @mongod_instance %>.pid
 
 logpath=<%= scope.lookupvar('mongodb::logdir') %>/mongod_<%= @mongod_instance %>.log
 
